@@ -1,13 +1,23 @@
-node_modules
-dist
-dist-ssr
-dist-electron
-build
-target
-src-tauri/target
-.idea
-.vscode
+node_modules/
+dist/
+dist-ssr/
+.vite/
+.vscode/
+.idea/
 *.log
-*.local
-*.tmp
-.DS_Store
+
+# Tauri
+src-tauri/target/
+src-tauri/gen/
+
+# Build
+release/
+build/
+
+# Environment
+.env
+.env.*
+
+# Windows
+Thumbs.db
+Desktop.ini
